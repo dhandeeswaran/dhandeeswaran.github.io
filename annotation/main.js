@@ -586,7 +586,7 @@ class DrawingComponent {
             // tileSources: image1,  // osdMetaInfo,// single image
             tileSources: [
                 {
-                    tileSource: image1,
+                    tileSource: this.tileSource1,
                     width: 1,
                     degrees: this.rotateValue ? this.rotateValue : 0,
                     y: 0,
@@ -597,7 +597,7 @@ class DrawingComponent {
             // sequenceMode: true,    
             //showReferenceStrip: true,
             // referenceStripScroll: 'vertical',
-            debugMode: true,
+            //debugMode: true,
             // minZoomImageRatio:  5,
             // maxZoomImageRatio:5,
             // degrees: 90,
